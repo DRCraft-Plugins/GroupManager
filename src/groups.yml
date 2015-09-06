@@ -9,6 +9,16 @@
 # Local group inheritances define your promotion tree when using 'manpromote/mandemote'
 
 groups:
+  Developer:
+  default:false
+  permissions:
+  - '*'
+  inheritance:
+  - admin
+  info:
+  prefix: &5
+  build: true
+  suffix: ''
   Admin:
     default: false
     permissions: []
